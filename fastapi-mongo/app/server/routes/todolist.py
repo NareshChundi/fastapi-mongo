@@ -1,5 +1,4 @@
 from starlette.responses import Response
-from server.models.student import ResponseModel
 from fastapi import APIRouter, Body
 from fastapi.encoders import jsonable_encoder
 from bson.objectid import ObjectId
